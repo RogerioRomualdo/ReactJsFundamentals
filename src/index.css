@@ -5,6 +5,7 @@ body {
   text-align: center;
   font-weight: 300;
   font-size: 1.4rem;
+  background: linear-gradient(to right, #243B55, #141E30);
 }
 
 h1, h2{
