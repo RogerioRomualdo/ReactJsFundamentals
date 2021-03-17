@@ -8,7 +8,8 @@ import ComFilhos from './components/basics/withChildren'
 import Repetição from './components/basics/repetition'
 import Condicional from './components/basics/conditional'
 import Parent from './components/communication/direct/parent'
-import Super from './components/communication/indirect/super';
+import Super from './components/communication/indirect/super'
+import Input from "./components/form/input"
 
 export default props => 
   <div className="App"> 
@@ -39,5 +40,8 @@ export default props =>
     </Card>
     <Card title="Indirect Communication" color="#E94C6F">
         <Super></Super>
+    </Card>
+    <Card title="Input" color="#145DA0">
+        <Input></Input>
     </Card>
   </div>
